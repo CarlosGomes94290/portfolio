@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
 3.times do |topic|
   Topic.create!(
     title: "Topic #{topic}"
@@ -50,4 +51,11 @@ end
     )
 end
 
+3.times do |technology|
+  Portfolio.last.technologies.create!(
+    name: "Technology #{technology}",
+  )
+
+end
 puts "9 portfolios created"
+puts "3 technologies created"
