@@ -17,4 +17,8 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    MadlabsViewTool::Renderer.copyright('Mad Labs', 'All rights reserved')
+  end
+
 end
