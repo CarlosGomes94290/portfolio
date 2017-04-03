@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.2', '>= 4.2.1'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -52,3 +53,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'madlabs_view_tool', git: 'https://github.com/CarlosGomes94290/madlabs_view_tool'
